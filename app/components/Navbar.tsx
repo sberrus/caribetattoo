@@ -1,17 +1,18 @@
+"use client"
 import React from 'react'
 import NavElement from './NavElement'
 
 const Navbar = () => {
     // navbar elements to show
-    const navElements = [{ title: "Home", href: "/" }, { title: "Conocenos", href: "/about" }]
+    const navElements = [{ title: "Home", href: "/" }, { title: "Artistas", href: "/artist" }, { title: "Conocenos", href: "/about" }]
 
     return (
-        <nav className={`bg-white dark:bg-transparent fixed z-50 w-full`}>
+        <nav className={`bg-transparent fixed z-50 w-full text-sm md:text-xl`}>
             {/* background blur */}
-            <div className='absolute w-full h-full bg-gray-950 opacity-35' style={{ filter: "blur(2px)" }}></div>
+            <div className='absolute w-full h-full border-b border-b-primary' style={{ filter: "blur(.75px)" }}></div>
             <div className="container flex items-center justify-center m-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
                 {navElements.map(({ href, title }, idx) => (
-                    <NavElement href={href} title={title} />
+                    <NavElement href={href} title={title} key={idx} />
                 ))}
             </div>
         </nav>
