@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <nav className={`bg-transparent fixed z-50 w-full text-sm md:text-md ${gfont.className}`}>
             {/* background blur */}
-            <div className='absolute w-full h-full bg-yellow-400 opacity-5 ' style={{ filter: "blur(.75px)" }}></div>
+            <div className='absolute w-full h-full bg-gray-950 opacity-80' style={{ filter: "blur(.75px)" }}></div>
             <div className="container flex items-center justify-center m-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
                 {navElements.map(({ href, title }, idx) => (
                     <NavElement href={href} title={title} key={idx} />
