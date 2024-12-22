@@ -35,9 +35,6 @@ const AboutSection = () => {
                     </div>
                 </div>
             </div>
-            <div className='absolute -bottom-96' style={{ height: 850, width: 850, left: -350, opacity: "10%" }}>
-                <Image alt='Caribe tattoo barco fondo' src={"/assets/decor/pirate-boat.png"} fill />
-            </div>
         </section>
     )
 }

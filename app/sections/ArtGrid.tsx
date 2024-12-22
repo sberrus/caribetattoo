@@ -3,9 +3,9 @@ import React from 'react'
 
 const ArtGrid = () => {
     return (
-        <div className='container px-2 mt-10'>
+        <div className='container px-2 mx-auto my-40'>
             {/* mobile layout */}
-            <section className='md:hidden h-screen grid grid-rows-4 grid-cols-2 gap-2 max-w-72 mx-auto'>
+            <section className='h-screen grid grid-rows-4 grid-cols-2 gap-2 max-w-72 mx-auto'>
                 <div className="relative">
                     <Image alt="Caribe tattoo" src={"/assets/images/GridArtSection/art1.png"} fill />
                 </div>
@@ -21,10 +21,6 @@ const ArtGrid = () => {
                 <div className='relative col-span-2'>
                     <Image alt="Caribe tattoo" src={"/assets/images/GridArtSection/art5.png"} fill />
                 </div>
-            </section>
-            {/* non mobile layout */}
-            <section className='hidden border border-red-500'>
-                show only in &gt; tablets
             </section>
         </div>
     )
