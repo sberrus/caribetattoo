@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroSection from './sections/HeroSection'
 import AboutSection from './sections/AboutSection'
-import FooterSection from './sections/FooterSection'
 import ArtGrid from './sections/ArtGrid'
 import TestimonialsSection from './sections/TestimonialsSection'
 import Image from 'next/image'
