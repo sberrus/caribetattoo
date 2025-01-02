@@ -3,7 +3,7 @@ import React from 'react'
 
 const FooterSection = () => {
     return (
-        <footer className="bg-background mt-6 border-t border-y-gray-800">
+        <footer className="bg-background mt-6 border-t border-y-gray-800 overflow-hidden">
             <div className="container flex flex-col items-center justify-between p-2 mx-auto space-y-4 sm:space-y-0 sm:flex-row text-gray-400">
                 <Image alt='caribe tattoo logo' src={"/assets/decor/logo-background-transparent.png"} height={100} width={100} />
                 <div className="flex flex-wrap justify-center mt-6 -mx-4">
