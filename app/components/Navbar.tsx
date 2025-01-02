@@ -5,7 +5,7 @@ import gfont from '../fonts/custom1'
 
 const Navbar = () => {
     // navbar elements to show
-    const navElements = [{ title: "Home", href: "/" }, { title: "Artistas", href: "/artist" }, { title: "Conocenos", href: "/about" }]
+    const navElements = [{ title: "Home", href: "/" }, { title: "Artistas", href: "/artists" }, { title: "Contactanos", href: "/contact" }]
 
     return (
         <nav className={`bg-transparent fixed z-50 w-full text-sm md:text-md ${gfont.className}`}>

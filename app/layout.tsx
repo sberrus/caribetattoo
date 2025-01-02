@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import FooterSection from "./sections/FooterSection";
 
 
 
@@ -20,10 +21,11 @@ export default function RootLayout({
       <body
         className={`antialiased text-yellow-50`}
       >
-        <div className='relative h-screen'>
+        <div className='relative min-h-screen'>
           <Navbar />
           {children}
         </div>
+        <FooterSection />
       </body>
     </html>
   );

@@ -5,6 +5,7 @@ import FooterSection from './sections/FooterSection'
 import ArtGrid from './sections/ArtGrid'
 import TestimonialsSection from './sections/TestimonialsSection'
 import Image from 'next/image'
+import CTASection from './sections/CTASection'
 
 const Index = () => {
   return (
@@ -21,8 +22,8 @@ const Index = () => {
         <ArtGrid />
       </div>
       <TestimonialsSection />
+      <CTASection />
       {/*  */}
-      <FooterSection />
     </main>
   )
 }
