@@ -21,7 +21,7 @@ const CTASection = () => {
                 <iframe className='w-full h-full'
                     style={{ border: 0 }}
                     referrerPolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBOMcSqhUHonGYmLZq-mAuHdMXQHf-nytE&q=Caribe+Tattoo,Madrid,Spain&zoom=15"
+                    src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY}&q=Caribe+Tattoo,Madrid,Spain&zoom=15`}
                     allowFullScreen>
                 </iframe>
             </div>
