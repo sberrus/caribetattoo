@@ -1,13 +1,9 @@
 "use client"
 import Image from 'next/image'
-import React, { useEffect } from 'react'
 import gfont from '../fonts/custom1'
-import useWindowSize from '../hooks/useWindowsSize'
 
 const HeroSection = () => {
-    const size = useWindowSize()
 
-    useEffect(() => { console.log(size); }, [window.innerWidth])
     return (
         <div className={`relative overflow-hidden bg-black w-full max-h-screen`} >
             {/* Background video */}
