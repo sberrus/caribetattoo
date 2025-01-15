@@ -121,7 +121,7 @@ const page = () => {
                         </div>
                         <div className="flex justify-end w-full px-3">
                             <button
-                                className="shadow bg-yellow-400 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-yellow-950 font-bold py-2 px-6 rounded"
+                                className="shadow bg-yellow-400 hover:bg-yellow-500 focus:shadow-outline focus:outline-none text-yellow-950 font-bold py-2 px-6 rounded"
                                 type="submit">
                                 Enviar mensaje
                             </button>
