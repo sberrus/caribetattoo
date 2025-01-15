@@ -4,8 +4,7 @@ import React from 'react'
 const ArtGrid = () => {
     return (
         <section className='container px-2 mx-auto my-24'>
-            {/* mobile layout */}
-            <section className='h-screen grid grid-rows-4 grid-cols-2 gap-2 max-w-96 w-full sm:w-8/12 md:5/12 lg:w-4/12 xl:w-3/12 mx-auto'>
+            <section className='h-screen grid grid-rows-4 grid-cols-2 gap-2 max-w-96 w-full sm:w-8/12 md:8/12 lg:w-8/12 xl:w-3/12 mx-auto'>
                 <div className="relative">
                     <Image alt="Caribe tattoo" src={"/assets/images/GridArtSection/art1.png"} fill />
                 </div>
